@@ -10,8 +10,8 @@ Requires the ANSIColor module from CPAN.
 
 Usage:
     cat log | cg.pl
-    cg.pl <log 
-    cg.pl <log |less -iR
+    cg.pl log 
+    cg.pl log |less -iR
 
 
 The default settings can be overridden with ~/.colorgccrc.

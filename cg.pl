@@ -156,7 +156,7 @@ $previousColor = $colors{"errorMessageColor"};
 my $terminal = $ENV{"TERM"} || "dumb";
 
 # Colorize the output from the compiler.
-while(<STDIN>)
+while(<>)
 {
   if (m#^(.+?\.[^:/ ]+):([0-9]+):(.*)$#) # filename:lineno:message
   {
